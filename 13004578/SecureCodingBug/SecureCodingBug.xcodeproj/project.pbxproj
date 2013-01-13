@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030DFA4516A330D400E5687B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030DFA4416A330D400E5687B /* Cocoa.framework */; };
+		030DFA4F16A330D400E5687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030DFA4D16A330D400E5687B /* InfoPlist.strings */; };
+		030DFA5116A330D400E5687B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA5016A330D400E5687B /* main.m */; };
+		030DFA5516A330D400E5687B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 030DFA5316A330D400E5687B /* Credits.rtf */; };
+		030DFA5816A330D400E5687B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA5716A330D400E5687B /* AppDelegate.m */; };
+		030DFA5B16A330D500E5687B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030DFA5916A330D500E5687B /* MainMenu.xib */; };
+		030DFA6716A330F600E5687B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030DFA6616A330F600E5687B /* Foundation.framework */; };
+		030DFA6D16A330F600E5687B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030DFA6B16A330F600E5687B /* InfoPlist.strings */; };
+		030DFA7016A330F600E5687B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA6F16A330F600E5687B /* main.m */; };
+		030DFA7616A3310D00E5687B /* Listener.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA7516A3310D00E5687B /* Listener.m */; };
+		030DFA8C16A331AE00E5687B /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA8B16A331AE00E5687B /* ModelObject.m */; };
+		030DFA8D16A331AE00E5687B /* ModelObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA8B16A331AE00E5687B /* ModelObject.m */; };
+		030DFA9016A3337D00E5687B /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA8F16A3337D00E5687B /* TestObject.m */; };
+		030DFA9116A3337D00E5687B /* TestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 030DFA8F16A3337D00E5687B /* TestObject.m */; };
+		030DFA9516A3351800E5687B /* com.indragie.SecureCodingXPCService.xpc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 030DFA6516A330F600E5687B /* com.indragie.SecureCodingXPCService.xpc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030DFA9316A3351100E5687B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFA3916A330D400E5687B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFA6416A330F600E5687B;
+			remoteInfo = SecureCodingXPCService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		030DFA9216A334FD00E5687B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Contents/XPCServices;
+			dstSubfolderSpec = 1;
+			files = (
+				030DFA9516A3351800E5687B /* com.indragie.SecureCodingXPCService.xpc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		030DFA4116A330D400E5687B /* SecureCodingBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecureCodingBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFA4416A330D400E5687B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		030DFA4716A330D400E5687B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		030DFA4816A330D400E5687B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		030DFA4916A330D400E5687B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		030DFA4C16A330D400E5687B /* SecureCodingBug-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureCodingBug-Info.plist"; sourceTree = "<group>"; };
+		030DFA4E16A330D400E5687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		030DFA5016A330D400E5687B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030DFA5216A330D400E5687B /* SecureCodingBug-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureCodingBug-Prefix.pch"; sourceTree = "<group>"; };
+		030DFA5416A330D400E5687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		030DFA5616A330D400E5687B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		030DFA5716A330D400E5687B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		030DFA5A16A330D500E5687B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		030DFA6516A330F600E5687B /* com.indragie.SecureCodingXPCService.xpc */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = com.indragie.SecureCodingXPCService.xpc; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFA6616A330F600E5687B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		030DFA6A16A330F600E5687B /* SecureCodingXPCService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SecureCodingXPCService-Info.plist"; sourceTree = "<group>"; };
+		030DFA6C16A330F600E5687B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		030DFA6E16A330F600E5687B /* SecureCodingXPCService-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SecureCodingXPCService-Prefix.pch"; sourceTree = "<group>"; };
+		030DFA6F16A330F600E5687B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		030DFA7416A3310D00E5687B /* Listener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listener.h; sourceTree = "<group>"; };
+		030DFA7516A3310D00E5687B /* Listener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Listener.m; sourceTree = "<group>"; };
+		030DFA8816A3317400E5687B /* XPCProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPCProtocol.h; sourceTree = "<group>"; };
+		030DFA8916A3318000E5687B /* HostProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostProtocol.h; sourceTree = "<group>"; };
+		030DFA8A16A331AE00E5687B /* ModelObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelObject.h; sourceTree = "<group>"; };
+		030DFA8B16A331AE00E5687B /* ModelObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelObject.m; sourceTree = "<group>"; };
+		030DFA8E16A3337D00E5687B /* TestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestObject.h; sourceTree = "<group>"; };
+		030DFA8F16A3337D00E5687B /* TestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestObject.m; sourceTree = "<group>"; };
+		030DFA9616A3373E00E5687B /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030DFA3E16A330D400E5687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFA4516A330D400E5687B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFA6216A330F600E5687B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFA6716A330F600E5687B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030DFA3816A330D400E5687B = {
+			isa = PBXGroup;
+			children = (
+				030DFA4A16A330D400E5687B /* SecureCodingBug */,
+				030DFA4B16A330D400E5687B /* Supporting Files */,
+				030DFA6816A330F600E5687B /* SecureCodingXPCService */,
+				030DFA4316A330D400E5687B /* Frameworks */,
+				030DFA4216A330D400E5687B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030DFA4216A330D400E5687B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA4116A330D400E5687B /* SecureCodingBug.app */,
+				030DFA6516A330F600E5687B /* com.indragie.SecureCodingXPCService.xpc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030DFA4316A330D400E5687B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA4416A330D400E5687B /* Cocoa.framework */,
+				030DFA6616A330F600E5687B /* Foundation.framework */,
+				030DFA4616A330D400E5687B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		030DFA4616A330D400E5687B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA4716A330D400E5687B /* AppKit.framework */,
+				030DFA4816A330D400E5687B /* CoreData.framework */,
+				030DFA4916A330D400E5687B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		030DFA4A16A330D400E5687B /* SecureCodingBug */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA9616A3373E00E5687B /* Defines.h */,
+				030DFA5616A330D400E5687B /* AppDelegate.h */,
+				030DFA5716A330D400E5687B /* AppDelegate.m */,
+				030DFA5916A330D500E5687B /* MainMenu.xib */,
+				030DFA8816A3317400E5687B /* XPCProtocol.h */,
+				030DFA8916A3318000E5687B /* HostProtocol.h */,
+				030DFA8A16A331AE00E5687B /* ModelObject.h */,
+				030DFA8B16A331AE00E5687B /* ModelObject.m */,
+				030DFA8E16A3337D00E5687B /* TestObject.h */,
+				030DFA8F16A3337D00E5687B /* TestObject.m */,
+			);
+			path = SecureCodingBug;
+			sourceTree = "<group>";
+		};
+		030DFA4B16A330D400E5687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA4C16A330D400E5687B /* SecureCodingBug-Info.plist */,
+				030DFA4D16A330D400E5687B /* InfoPlist.strings */,
+				030DFA5016A330D400E5687B /* main.m */,
+				030DFA5216A330D400E5687B /* SecureCodingBug-Prefix.pch */,
+				030DFA5316A330D400E5687B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			path = SecureCodingBug;
+			sourceTree = "<group>";
+		};
+		030DFA6816A330F600E5687B /* SecureCodingXPCService */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA6F16A330F600E5687B /* main.m */,
+				030DFA6916A330F600E5687B /* Supporting Files */,
+				030DFA7416A3310D00E5687B /* Listener.h */,
+				030DFA7516A3310D00E5687B /* Listener.m */,
+			);
+			path = SecureCodingXPCService;
+			sourceTree = "<group>";
+		};
+		030DFA6916A330F600E5687B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				030DFA6A16A330F600E5687B /* SecureCodingXPCService-Info.plist */,
+				030DFA6B16A330F600E5687B /* InfoPlist.strings */,
+				030DFA6E16A330F600E5687B /* SecureCodingXPCService-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030DFA4016A330D400E5687B /* SecureCodingBug */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFA5E16A330D500E5687B /* Build configuration list for PBXNativeTarget "SecureCodingBug" */;
+			buildPhases = (
+				030DFA3D16A330D400E5687B /* Sources */,
+				030DFA3E16A330D400E5687B /* Frameworks */,
+				030DFA3F16A330D400E5687B /* Resources */,
+				030DFA9216A334FD00E5687B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFA9416A3351100E5687B /* PBXTargetDependency */,
+			);
+			name = SecureCodingBug;
+			productName = SecureCodingBug;
+			productReference = 030DFA4116A330D400E5687B /* SecureCodingBug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030DFA6416A330F600E5687B /* SecureCodingXPCService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFA7116A330F600E5687B /* Build configuration list for PBXNativeTarget "SecureCodingXPCService" */;
+			buildPhases = (
+				030DFA6116A330F600E5687B /* Sources */,
+				030DFA6216A330F600E5687B /* Frameworks */,
+				030DFA6316A330F600E5687B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecureCodingXPCService;
+			productName = SecureCodingXPCService;
+			productReference = 030DFA6516A330F600E5687B /* com.indragie.SecureCodingXPCService.xpc */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030DFA3916A330D400E5687B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = nonatomic;
+			};
+			buildConfigurationList = 030DFA3C16A330D400E5687B /* Build configuration list for PBXProject "SecureCodingBug" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 030DFA3816A330D400E5687B;
+			productRefGroup = 030DFA4216A330D400E5687B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030DFA4016A330D400E5687B /* SecureCodingBug */,
+				030DFA6416A330F600E5687B /* SecureCodingXPCService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030DFA3F16A330D400E5687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFA4F16A330D400E5687B /* InfoPlist.strings in Resources */,
+				030DFA5516A330D400E5687B /* Credits.rtf in Resources */,
+				030DFA5B16A330D500E5687B /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFA6316A330F600E5687B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFA6D16A330F600E5687B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030DFA3D16A330D400E5687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFA5116A330D400E5687B /* main.m in Sources */,
+				030DFA5816A330D400E5687B /* AppDelegate.m in Sources */,
+				030DFA8C16A331AE00E5687B /* ModelObject.m in Sources */,
+				030DFA9016A3337D00E5687B /* TestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFA6116A330F600E5687B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFA7016A330F600E5687B /* main.m in Sources */,
+				030DFA7616A3310D00E5687B /* Listener.m in Sources */,
+				030DFA8D16A331AE00E5687B /* ModelObject.m in Sources */,
+				030DFA9116A3337D00E5687B /* TestObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030DFA9416A3351100E5687B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFA6416A330F600E5687B /* SecureCodingXPCService */;
+			targetProxy = 030DFA9316A3351100E5687B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030DFA4D16A330D400E5687B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFA4E16A330D400E5687B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		030DFA5316A330D400E5687B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFA5416A330D400E5687B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		030DFA5916A330D500E5687B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFA5A16A330D500E5687B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		030DFA6B16A330F600E5687B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFA6C16A330F600E5687B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030DFA5C16A330D500E5687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		030DFA5D16A330D500E5687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		030DFA5F16A330D500E5687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureCodingBug/SecureCodingBug-Prefix.pch";
+				INFOPLIST_FILE = "SecureCodingBug/SecureCodingBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		030DFA6016A330D500E5687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureCodingBug/SecureCodingBug-Prefix.pch";
+				INFOPLIST_FILE = "SecureCodingBug/SecureCodingBug-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		030DFA7216A330F600E5687B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureCodingXPCService/SecureCodingXPCService-Prefix.pch";
+				INFOPLIST_FILE = "SecureCodingXPCService/SecureCodingXPCService-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "com.indragie.$(TARGET_NAME:rfc1034identifier)";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Debug;
+		};
+		030DFA7316A330F600E5687B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SecureCodingXPCService/SecureCodingXPCService-Prefix.pch";
+				INFOPLIST_FILE = "SecureCodingXPCService/SecureCodingXPCService-Info.plist";
+				MACH_O_TYPE = mh_execute;
+				PRODUCT_NAME = "com.indragie.$(TARGET_NAME:rfc1034identifier)";
+				WRAPPER_EXTENSION = xpc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030DFA3C16A330D400E5687B /* Build configuration list for PBXProject "SecureCodingBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFA5C16A330D500E5687B /* Debug */,
+				030DFA5D16A330D500E5687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFA5E16A330D500E5687B /* Build configuration list for PBXNativeTarget "SecureCodingBug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFA5F16A330D500E5687B /* Debug */,
+				030DFA6016A330D500E5687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030DFA7116A330F600E5687B /* Build configuration list for PBXNativeTarget "SecureCodingXPCService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFA7216A330F600E5687B /* Debug */,
+				030DFA7316A330F600E5687B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030DFA3916A330D400E5687B /* Project object */;
+}

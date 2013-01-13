@@ -1,0 +1,8 @@
+//
+// Prefix header for all source files of the 'SecureCodingBug' target in the 'SecureCodingBug' project
+//
+
+#ifdef __OBJC__
+	#import <Cocoa/Cocoa.h>
+#import "Defines.h"
+#endif
