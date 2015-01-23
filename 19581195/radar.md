@@ -17,10 +17,10 @@ The attached video demonstrates this behavior, at around 0:16.
 5. Scroll up slowly, note that it will start jittering as you scroll upwards, specifically towards the very top of the table view (shown in the video)
 
 **Expected Results:**  
-Cells jump as their heights are changed when scrolling up.
+Cell heights stay consistent (as their computed heights are already known) and scrolling up is smooth.
 
 **Actual Results:**  
-Cell heights stay consistent (as their computed heights are already known) and scrolling up is smooth.
+Cells jump as their heights are changed when scrolling up.
 
 **Configuration:**  
 iPhone 6 64GB & iOS Simulator (iPhone 6 / iOS 8.1 (12B411))
