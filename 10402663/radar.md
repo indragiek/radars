@@ -28,3 +28,15 @@ It's hard and painful.
 None.
 
 **Notes:**
+
+\-
+
+**Update - (2013.07.12):**
+
+*Hint:* This will only work for iTunes 11 and later
+
+Apple introduced a new framework called `iTunesLibrary.framework` with iTunes 11.
+You can now easily get fast access to the iTunes Library in sandboxed applications.
+You can also use this framework along with Scripting Bridge, simply use the identifier `persistentID`.
+
+<a href="https://developer.apple.com/library/mac/#documentation/iTunesLibrary/Reference/iTunesLibraryFrameworkReference/_index.html">iTunesLibrary.framework Documentation</a>
